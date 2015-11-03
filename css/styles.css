@@ -1,0 +1,52 @@
+/*
+Color Pallete
+Primary Color: #D76C58
+Secondary Color: #313131
+Terch Color: #F87759
+             #7B7B7B
+    
+
+Body Copy: font-family: 'Lato', sans-serif;
+Heading: font-family: 'Abril Fatface', cursive;
+*/
+
+
+/*Global*/
+
+body{
+ background: url(../img/bg.png);
+}
+
+/*Typography*/
+h1,
+h2{
+  font-family: 'Abril Fatface', cursive; 
+  color: #F87759;
+  letter-spacing: 2px;
+  text-transform: uppercase
+}
+
+p,
+blockquote{
+    font-family: 'Lato', sans-serif;
+    color: #7B7B7B;
+    line-height: 1.4em;
+    text-align: left;
+}
+
+blockquote{
+ text-align: center;
+    font-size: 2em;
+    padding: 1em;
+}
+
+/*Navigation*/
+nav li {
+    display:inline-block;
+ list-style: none;
+}
+
+/*Images*/
+section img{
+    width: 50%;
+}
